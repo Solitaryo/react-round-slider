@@ -1,8 +1,8 @@
 {
-  "name": "react-arc-slider",
+  "name": "react-round-slider",
   "version": "1.0.0",
-  "description": "React arc slider component, using SVG and javascript",
-  "main": "ReactArcSlider.js",
+  "description": "React round slider component, using SVG and javascript",
+  "main": "index.js",
   "scripts": {
     "test": "jest --verbose",
     "test:watch": "jest --watch"
@@ -11,15 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/Solitaryo/react-arc-slider.git"
   },
-  "keywords": [
-    "react",
-    "arc",
-    "slider",
-    "javascript",
-    "es6",
-    "es2016",
-    "jsx"
-  ],
+  "keywords": ["react", "round", "slider", "javascript", "es6", "es2016", "jsx"],
   "author": "Oscar Gallo <solitaryo@gmail.com> (https://solitaryo.github.io/)",
   "license": "GNU GPLv3.0",
   "bugs": {
@@ -45,8 +37,6 @@
   },
   "jest": {
     "setupTestFrameworkScriptFile": "<rootDir>/test/setup/setupTest.js",
-    "testPathIgnorePatterns": [
-      "<rootDir>/tests/setup/"
-    ]
+    "testPathIgnorePatterns": ["<rootDir>/tests/setup/"]
   }
 }
