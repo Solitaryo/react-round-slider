@@ -1,6 +1,6 @@
 {
   "name": "react-round-slider",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React round slider component, using SVG and javascript",
   "main": "index.js",
   "scripts": {
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Solitaryo/react-arc-slider.git"
+    "url": "git+https://github.com/Solitaryo/react-round-slider.git"
   },
   "keywords": ["react", "round", "slider", "javascript", "es6", "es2016", "jsx"],
   "author": "Oscar Gallo <solitaryo@gmail.com> (https://solitaryo.github.io/)",
   "license": "GNU GPLv3.0",
   "bugs": {
-    "url": "https://github.com/Solitaryo/react-arc-slider/issues"
+    "url": "https://github.com/Solitaryo/react-round-slider/issues"
   },
-  "homepage": "https://github.com/Solitaryo/react-arc-slider#readme",
+  "homepage": "https://github.com/Solitaryo/react-round-slider#readme",
   "dependencies": {
     "prop-types": "15.6.2",
     "react": "16.4.2"
