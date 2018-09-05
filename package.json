@@ -1,0 +1,52 @@
+{
+  "name": "react-arc-slider",
+  "version": "1.0.0",
+  "description": "React arc slider component, using SVG and javascript",
+  "main": "ReactArcSlider.js",
+  "scripts": {
+    "test": "jest --verbose",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Solitaryo/react-arc-slider.git"
+  },
+  "keywords": [
+    "react",
+    "arc",
+    "slider",
+    "javascript",
+    "es6",
+    "es2016",
+    "jsx"
+  ],
+  "author": "Oscar Gallo <solitaryo@gmail.com> (https://solitaryo.github.io/)",
+  "license": "GNU GPLv3.0",
+  "bugs": {
+    "url": "https://github.com/Solitaryo/react-arc-slider/issues"
+  },
+  "homepage": "https://github.com/Solitaryo/react-arc-slider#readme",
+  "dependencies": {
+    "prop-types": "15.6.2",
+    "react": "16.4.2"
+  },
+  "devDependencies": {
+    "babel-jest": "23.4.2",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-react": "6.24.1",
+    "babel-preset-stage-0": "6.24.1",
+    "chai": "4.1.2",
+    "enzyme": "3.5.0",
+    "enzyme-adapter-react-16": "1.3.0",
+    "enzyme-to-json": "3.3.4",
+    "jest": "23.5.0",
+    "react-dom": "16.4.2",
+    "react-test-renderer": "16.4.2"
+  },
+  "jest": {
+    "setupTestFrameworkScriptFile": "<rootDir>/test/setup/setupTest.js",
+    "testPathIgnorePatterns": [
+      "<rootDir>/tests/setup/"
+    ]
+  }
+}
