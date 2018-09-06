@@ -4,13 +4,13 @@
 
 > React Round Slider gives you round slider, which can be used for any of you slider needs, very easy to use and configurable, the API is very straight forward. No properties are required to render the componet.
 
-install npm
+install with npm
 
 ```bash
 npm install -save react-round-slider
 ```
 
-install yarn
+install with yarn
 ```
 yarn add react-round-slider
 ```
@@ -19,7 +19,7 @@ yarn add react-round-slider
 
 ## Use Example:
 ```javascript
-  import React from 'react';
+  import React, { Fragement } from 'react';
   import ReactRoundSlider from 'ReactRoundSlider';
 
   class SliderTest extends React.Component {
@@ -28,7 +28,7 @@ yarn add react-round-slider
     };
     render() {
       return (
-        <div>
+        <Fragement>
           <ReactRoundSlider
             radius={140}
             border={15}
@@ -36,7 +36,7 @@ yarn add react-round-slider
             size={25}
             value={0.1}
             getValue={this.handleGetValue}/>
-        </div>
+        </Fragement>
       )
     }
   }

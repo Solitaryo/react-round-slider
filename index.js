@@ -1,8 +1,17 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-class ReactRoundSlider extends Component {
+export default class ReactRoundSlider extends Component {
   state = { isPinching: false, value: 0.1 };
+
+  static propTypes = {
+    radius: PropTypes.number,
+    border: PropTypes.number,
+    subtitle: PropTypes.string,
+    size: PropTypes.number,
+    value: PropTypes.number,
+    getValue: PropTypes.func
+  }
 
   componentDidMount = () => {
     this.x = 0;
@@ -151,14 +160,3 @@ class ReactRoundSlider extends Component {
     );
   }
 }
-
-ReactRoundSlider.propTypes = {
-  radius: PropTypes.number,
-  border: PropTypes.number,
-  subtitle: PropTypes.string,
-  size: PropTypes.number,
-  value: PropTypes.number,
-  getValue: PropTypes.func
-};
-
-export default ReactRoundSlider;
